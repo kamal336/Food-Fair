@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+p{
+  font-size: 1.1rem;
+}
+
+.text-color{
+    color: #0d55f0;
+}
+
+.flexible-display{
+    display: flex;
+}
+/*top section starts from here*/
+#top-section{
+    padding: 3% 4%;
+}
+
+.text-area{
+    width: 50%;
+    margin: 20px 30px;
+}
+
+.text-area a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.image-area{
+    width: 50%;
+}
+
+.image-area img{
+    width: 80%;
+}
+
+.btn-click{
+    background: linear-gradient(45deg,rgb(92, 167, 167),rgb(15, 116, 211));
+    padding: 20px 45px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+/*top section ends from here*/
+
+/*about us section starts from here*/
+
+/*about us section ends from here*/
