@@ -1,3 +1,4 @@
+/*common style starts from here*/
 
 *{
     margin: 0;
@@ -27,6 +28,8 @@ p{
 .flexible-display{
     display: flex;
 }
+/*common style ends from here*/
+
 /*top section starts from here*/
 #top-section{
     padding: 3% 4%;
@@ -70,7 +73,7 @@ p{
 
  .image-about{
      width: 50%;
-     margin: 65px;
+     margin: 120px;
  }
 
  .image-about img{
@@ -81,6 +84,11 @@ p{
     width: 50%;
      margin:200px;
  }
+ .about-text a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 /*about us section ends from here*/
 
 /*food menu section starts from here*/
@@ -94,7 +102,6 @@ p{
       margin: auto;
       margin-bottom: 20px;
   }
-
 
   .card{
       margin: 20px;
@@ -144,5 +151,31 @@ p{
 /*review ends from here*/
 
 /*footer section starts from here*/
+footer{
+    text-align: center;
+    background-color: rgb(171, 201, 248);
+    padding: 3% 4%;
+}
 
+footer h4{
+    font-size: 1.6rem;
+}
+
+ul li {
+  overflow: hidden;
+  display: inline-block;
+}
+
+ul li a{
+    padding: 10px;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    background-color: rgb(164, 165, 165);
+}
+
+.social-icon{
+    font-size: 2.1rem;
+}
 /*footer section ends from here*/
