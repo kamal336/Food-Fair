@@ -12,6 +12,10 @@ h1{
     font-size: 3.5rem;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
 p{
   font-size: 1.1rem;
 }
@@ -48,14 +52,72 @@ p{
 }
 
 .btn-click{
-    background: linear-gradient(45deg,rgb(92, 167, 167),rgb(15, 116, 211));
+    background: linear-gradient(45deg,#5ca7a7,#0d55f0);
     padding: 20px 45px;
     border: none;
     border-radius: 30px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 /*top section ends from here*/
 
 /*about us section starts from here*/
+ #aboutus-section{
+    background-image: url("images/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;    
+ }
 
+ .image-about{
+     width: 50%;
+     margin: 65px;
+ }
+
+ .image-about img{
+    margin-left: 60px;
+ }
+
+ .about-text{
+    width: 50%;
+     margin:200px;
+ }
 /*about us section ends from here*/
+
+/*food menu section starts from here*/
+  #food-menu{
+    padding: 3% 4%;
+  }
+
+  .recipies{
+      text-align: center;
+      width: 60%;
+      margin: auto;
+  }
+
+
+  .card{
+      margin: 20px;
+      padding: 10px;
+      border-radius: 25px;
+      box-shadow: 3px 5px 32px rgb(163, 159, 159);
+     text-align:inherit;
+  }
+
+  .card-image{
+    padding: 10px; 
+  }
+
+  .card-image img{
+    border-radius: 25px;
+    
+  }
+
+  .card-title{
+      padding: 10px;
+      font-size: 1.8rem;
+  }
+
+  .card-text{
+      padding: 10px;
+  }
+/*food menu section ends from here*/
