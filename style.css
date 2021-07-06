@@ -92,6 +92,7 @@ p{
       text-align: center;
       width: 60%;
       margin: auto;
+      margin-bottom: 20px;
   }
 
 
@@ -121,3 +122,27 @@ p{
       padding: 10px;
   }
 /*food menu section ends from here*/
+
+/*review starts from here*/
+#review-section{
+    padding: 2% 4%;
+    border-radius: 25px;
+    margin:100px;
+    box-shadow: 3px 5px 34px rgb(167, 167, 163);
+}
+
+.review{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.review h3{
+   font-size: 1.6rem;
+}
+
+/*review ends from here*/
+
+/*footer section starts from here*/
+
+/*footer section ends from here*/
